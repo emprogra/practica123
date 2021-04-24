@@ -12,5 +12,7 @@ namespace WebCasa.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<WebCasa.Models.Pers> Pers { get; set; }
     }
 }
