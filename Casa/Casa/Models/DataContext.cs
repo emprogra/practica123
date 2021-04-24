@@ -12,5 +12,7 @@ namespace Casa.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Casa.Models.Pers> Pers { get; set; }
     }
 }
